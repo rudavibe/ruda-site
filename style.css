@@ -1,0 +1,14 @@
+:root{--ink:#1f2a2e;--muted:#56646a;--paper:#f7f9f9;--line:#d5dee0;--mark:#2f6f73;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--ink:#e3eaec;--muted:#9fb0b5;--paper:#121a1c;--line:#2c3a3d;--mark:#7fbfc2;color-scheme:dark}}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0 auto;max-width:42rem;padding:3.5rem 1.25rem 4rem;color:var(--ink);background:var(--paper);
+ font:1.0625rem/1.65 "Iowan Old Style","Palatino Linotype",Palatino,"Noto Serif Thai","Sarabun",Georgia,serif}
+header{border-left:3px solid var(--mark);padding-left:1rem;margin-bottom:2.5rem}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .35rem;font-weight:600}
+h2{font-size:1.15rem;margin:2.2rem 0 .5rem;font-weight:600}
+p,li{max-width:68ch}
+.lead{color:var(--muted);margin:0}
+a{color:var(--mark)}
+a:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
